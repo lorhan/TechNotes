@@ -594,7 +594,7 @@ A radio message in the protocol has 48 bytes of payload. The vibration sensor ne
 \end{aligned}
 \label{eq_energy_consumption_pro_byte}
 \end{equation}
-Hence, the energy required to send all the data for one measurement is $E_{all} = N_{b} \cdot E \approx 3.64 Ws$, while the energy required to extract the features with the signal processing techniques described and sending only the desired features, as obtained through lab measurements, is $E_{single} \approx 0.51 Ws$. The energy reduction per measurement achieved is then $E_{all}/E_{single} \approx 7.14$.
+Hence, the energy required by the electronic sensor to send all the data for one measurement is $E_{all} = N_{b} \cdot E \approx 3.64 Ws$, while the energy required by the sensor's microcontroller to extract the features with the signal processing techniques described and then send only the desired features, as obtained through lab measurements, is $E_{single} \approx 0.51 Ws$. The energy reduction per measurement achieved is then $(1 - E_{all}/E_{single}) \approx 86\% $.
 
 % ===============================================================
 \subsection{The Way to the Internet of Things}
