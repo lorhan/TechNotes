@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.14)  30 DEC 2022 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.14)  30 DEC 2022 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,12 +373,12 @@ Package pdftex.def Info: graphics/single_variab_innadequate.pdf  used on input l
 <graphics/concept/concept_pre_new.pdf, id=56, 2494.82062pt x 1276.01718pt>
 File: graphics/concept/concept_pre_new.pdf Graphic file (type pdf)
 <use graphics/concept/concept_pre_new.pdf>
-Package pdftex.def Info: graphics/concept/concept_pre_new.pdf  used on input line 366.
+Package pdftex.def Info: graphics/concept/concept_pre_new.pdf  used on input line 368.
 (pdftex.def)             Requested size: 252.0pt x 128.87477pt.
 <graphics/axes_time_fft/axes_time_fft_v2.pdf, id=57, 996.80853pt x 268.20578pt>
 File: graphics/axes_time_fft/axes_time_fft_v2.pdf Graphic file (type pdf)
 <use graphics/axes_time_fft/axes_time_fft_v2.pdf>
-Package pdftex.def Info: graphics/axes_time_fft/axes_time_fft_v2.pdf  used on input line 388.
+Package pdftex.def Info: graphics/axes_time_fft/axes_time_fft_v2.pdf  used on input line 390.
 (pdftex.def)             Requested size: 252.0pt x 67.80429pt.
  [5 </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/single_variab_innadequate.pdf> </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/concept/concept_pre_new.pdf
 
@@ -390,53 +390,53 @@ pdfTeX warning: pdflatex (file /home/victor/Documents/ConferencePaper/Conference
 <graphics/motor_frequency/motor_frequency.pdf, id=333, 1040.06291pt x 316.25679pt>
 File: graphics/motor_frequency/motor_frequency.pdf Graphic file (type pdf)
 <use graphics/motor_frequency/motor_frequency.pdf>
-Package pdftex.def Info: graphics/motor_frequency/motor_frequency.pdf  used on input line 406.
+Package pdftex.def Info: graphics/motor_frequency/motor_frequency.pdf  used on input line 408.
 (pdftex.def)             Requested size: 252.0pt x 76.62703pt.
 <graphics/filters_sigresponse/filters_sigresponse_ohne.pdf, id=334, 776.96536pt x 394.46002pt>
 File: graphics/filters_sigresponse/filters_sigresponse_ohne.pdf Graphic file (type pdf)
 <use graphics/filters_sigresponse/filters_sigresponse_ohne.pdf>
-Package pdftex.def Info: graphics/filters_sigresponse/filters_sigresponse_ohne.pdf  used on input line 463.
+Package pdftex.def Info: graphics/filters_sigresponse/filters_sigresponse_ohne.pdf  used on input line 465.
 (pdftex.def)             Requested size: 252.0pt x 127.93916pt.
-<graphics/pca_result/pca_result.pdf, id=335, 530.46178pt x 328.8285pt>
-File: graphics/pca_result/pca_result.pdf Graphic file (type pdf)
-<use graphics/pca_result/pca_result.pdf>
-Package pdftex.def Info: graphics/pca_result/pca_result.pdf  used on input line 489.
-(pdftex.def)             Requested size: 226.79846pt x 140.5907pt.
  [6 </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/motor_frequency/motor_frequency.pdf> </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/filters_sigresponse/filters_sigresponse_ohne.pdf
 
 pdfTeX warning: pdflatex (file /home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/filters_sigresponse/filters_sigresponse_ohne.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
+<graphics/pca_result/pca_result_v2.pdf, id=832, 552.22798pt x 171.85645pt>
+File: graphics/pca_result/pca_result_v2.pdf Graphic file (type pdf)
+<use graphics/pca_result/pca_result_v2.pdf>
+Package pdftex.def Info: graphics/pca_result/pca_result_v2.pdf  used on input line 491.
+(pdftex.def)             Requested size: 226.79846pt x 70.57959pt.
 <graphics/quantile_transform_data/quantile_transform_data_ohne.pdf, id=833, 643.83798pt x 184.63867pt>
 File: graphics/quantile_transform_data/quantile_transform_data_ohne.pdf Graphic file (type pdf)
 <use graphics/quantile_transform_data/quantile_transform_data_ohne.pdf>
-Package pdftex.def Info: graphics/quantile_transform_data/quantile_transform_data_ohne.pdf  used on input line 510.
+Package pdftex.def Info: graphics/quantile_transform_data/quantile_transform_data_ohne.pdf  used on input line 512.
 (pdftex.def)             Requested size: 252.0pt x 72.26797pt.
 <graphics/mvgd_plots/plot1_fmotor_rmstotal_ohne.pdf, id=834, 786.29759pt x 446.62859pt>
 File: graphics/mvgd_plots/plot1_fmotor_rmstotal_ohne.pdf Graphic file (type pdf)
 <use graphics/mvgd_plots/plot1_fmotor_rmstotal_ohne.pdf>
-Package pdftex.def Info: graphics/mvgd_plots/plot1_fmotor_rmstotal_ohne.pdf  used on input line 543.
+Package pdftex.def Info: graphics/mvgd_plots/plot1_fmotor_rmstotal_ohne.pdf  used on input line 545.
 (pdftex.def)             Requested size: 126.0pt x 71.56425pt.
 <graphics/mvgd_plots/plot2_fmotor_rmstotal_rmslow_ohne.pdf, id=835, 784.85219pt x 461.08258pt>
 File: graphics/mvgd_plots/plot2_fmotor_rmstotal_rmslow_ohne.pdf Graphic file (type pdf)
 <use graphics/mvgd_plots/plot2_fmotor_rmstotal_rmslow_ohne.pdf>
-Package pdftex.def Info: graphics/mvgd_plots/plot2_fmotor_rmstotal_rmslow_ohne.pdf  used on input line 546.
+Package pdftex.def Info: graphics/mvgd_plots/plot2_fmotor_rmstotal_rmslow_ohne.pdf  used on input line 548.
 (pdftex.def)             Requested size: 126.0pt x 74.02095pt.
 <graphics/mvgd_plots/plot3_fmotor_rmstotal_rmsmid_ohne.pdf, id=836, 783.40678pt x 462.52798pt>
 File: graphics/mvgd_plots/plot3_fmotor_rmstotal_rmsmid_ohne.pdf Graphic file (type pdf)
 <use graphics/mvgd_plots/plot3_fmotor_rmstotal_rmsmid_ohne.pdf>
-Package pdftex.def Info: graphics/mvgd_plots/plot3_fmotor_rmstotal_rmsmid_ohne.pdf  used on input line 549.
+Package pdftex.def Info: graphics/mvgd_plots/plot3_fmotor_rmstotal_rmsmid_ohne.pdf  used on input line 551.
 (pdftex.def)             Requested size: 126.0pt x 74.38708pt.
 <graphics/mvgd_plots/plot4_fmotor_rmstotal_rmshigh_ohne.pdf, id=837, 792.0792pt x 465.4188pt>
 File: graphics/mvgd_plots/plot4_fmotor_rmstotal_rmshigh_ohne.pdf Graphic file (type pdf)
 <use graphics/mvgd_plots/plot4_fmotor_rmstotal_rmshigh_ohne.pdf>
-Package pdftex.def Info: graphics/mvgd_plots/plot4_fmotor_rmstotal_rmshigh_ohne.pdf  used on input line 552.
+Package pdftex.def Info: graphics/mvgd_plots/plot4_fmotor_rmstotal_rmshigh_ohne.pdf  used on input line 554.
 (pdftex.def)             Requested size: 126.0pt x 74.03531pt.
 
-Overfull \hbox (5.99171pt too wide) detected at line 605
+Overfull \hbox (5.99171pt too wide) detected at line 607
 [][]
  []
 
-[7 </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/pca_result/pca_result.pdf> </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/quantile_transform_data/quantile_transform_data_ohne.pdf
+[7 </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/pca_result/pca_result_v2.pdf> </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/quantile_transform_data/quantile_transform_data_ohne.pdf
 
 pdfTeX warning: pdflatex (file /home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/quantile_transform_data/quantile_transform_data_ohne.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > </home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/mvgd_plots/plot1_fmotor_rmstotal_ohne.pdf
@@ -452,10 +452,11 @@ pdfTeX warning: pdflatex (file /home/victor/Documents/ConferencePaper/Conference
 
 pdfTeX warning: pdflatex (file /home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/graphics/mvgd_plots/plot4_fmotor_rmstotal_rmshigh_ohne.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 1436) in paragraph at lines 631--632
+Underfull \hbox (badness 1436) in paragraph at lines 633--634
 []\OT1/ptm/m/n/10 In this work, we de-vel-oped an edge-based vibration-
  []
 
+[8]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -467,20 +468,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8] (/home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/conference_101719.aux) ) 
+[9
+
+] (/home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/conference_101719.aux) ) 
 Here is how much of TeX's memory you used:
  5664 strings out of 481239
- 95553 string characters out of 5920377
+ 95571 string characters out of 5920377
  496733 words of memory out of 5000000
  20843 multiletter control sequences out of 15000+600000
  569648 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,14n,49p,1453b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/conference_101719.pdf (8 pages, 3850564 bytes).
+Output written on /home/victor/Documents/ConferencePaper/Conference-LaTeX-DumbedDown_Git/conference_101719.pdf (9 pages, 3849513 bytes).
 PDF statistics:
- 2023 PDF objects out of 2073 (max. 8388607)
- 1223 compressed objects within 13 object streams
+ 2017 PDF objects out of 2073 (max. 8388607)
+ 1219 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
