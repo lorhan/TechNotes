@@ -425,13 +425,30 @@ For this purpose, the available frequency range of up to 2250Hz (according to th
 
 The higher the number of ranges, the more detailed the vibration energy distribution over frequency, at the cost of more computations required.
 
-For each of these ranges, a digital filter is developed. These filters are named, in a notation based on their discrete-time transfer functions, as $F_{low}$, $F_{mid}$ and $F_{high}$, according to their associated frequency range. Considering Section \ref{sec_digital_filters_concept}, the main design decisions are summarized as follow:
+For each of these ranges, a digital filter is developed. These filters are named, in a notation based on their discrete-time transfer functions, as $F_{low}$, $F_{mid}$ and $F_{high}$, according to their associated frequency range. Table \ref{tab_filters} lists the main parameters of the design of the filters, which where chosen based on the trade-offs described in Section \ref{sec_digital_filters_concept}. It is worth mentioning that the reason the cutoff frequencies do not coincide with the subranges previously defined is to compensate for the undesired effects of the transition bands.
 
-\begin{itemize}
-	\item \textbf{Topology}: We select the inverse Chebyshev as the topology. The first reason for this choice is the narrow transition band, which is always desirable. The trade-off for the narrower transition band is a larger phase distortion, which is irrelevant for our case, as we do not consider a phase in our modeling. Finally, we desired a flat passband in order to preserve the information as much as possible for our modeling.
-	\item \textbf{Order}: As a general rule, the overall performance of the filter is improved with higher order, at the cost of more computations required. By experimentation, the	trade-off order should be set to 3.
-	\item \textbf{Overlap}: Some overlap is included in the cutoff frequencies of the three filters. This is a decision taken to achieve an optimum configuration within the numerous trade-offs in filter design. Hence, $F_{low}(z)$ was defined as a low-pass with cutoff at 700 Hz, $F_{mid}(z)$ was defined as a band-pass with cutoff at 400 and 1350 Hz, and $F_{high}(z)$ as a high-pass at 1150 Hz.
-\end{itemize}
+
+% \begin{itemize}
+% 	\item \textbf{Topology}: We select the inverse Chebyshev as the topology. The first reason for this choice is the narrow transition band, which is always desirable. The trade-off for the narrower transition band is a larger phase distortion, which is irrelevant for our case, as we do not consider a phase in our modeling. Finally, we desired a flat passband in order to preserve the information as much as possible for our modeling.
+% 	\item \textbf{Order}: As a general rule, the overall performance of the filter is improved with higher order, at the cost of more computations required. By experimentation, the	trade-off order should be set to 3.
+% 	\item \textbf{Overlap}: Some overlap is included in the cutoff frequencies of the three filters. This is a decision taken to achieve an optimum configuration within the numerous trade-offs in filter design. Hence, $F_{low}(z)$ was defined as a low-pass with cutoff at 700 Hz, $F_{mid}(z)$ was defined as a band-pass with cutoff at 400 and 1350 Hz, and $F_{high}(z)$ as a high-pass at 1150 Hz.
+% \end{itemize}
+
+\begin{table}[htbp]
+	\centering
+	\caption{Main parameters of the developed digital filters}
+	\label{tab_filters}
+	\begin{tabular}{|c|ccc|}
+	\hline
+	\textbf{}                                                        & \multicolumn{1}{c|}{\textbf{$F_{low}(z)$}} & \multicolumn{1}{c|}{\textbf{$F_{mid}(z)$}} & \textbf{$F_{high}(z)$} \\ \hline
+	\textbf{Topology}                                                      & \multicolumn{3}{c|}{inverse Chebyshev}                                                            \\ \hline
+	\textbf{Order}                                                         & \multicolumn{3}{c|}{3}                                                                            \\ \hline
+	\textbf{Band-type}                                                     & \multicolumn{1}{c|}{low-pass}         & \multicolumn{1}{c|}{band-pass}        & high-pass         \\ \hline
+	\textbf{\begin{tabular}[c]{@{}c@{}}Cutoff freq. \\ in Hz\end{tabular}} & \multicolumn{1}{c|}{700}              & \multicolumn{1}{c|}{400,1350}         & 1150              \\ \hline
+	\end{tabular}
+	
+\end{table}
+
 
 Consequently, we give the $a$-axis signal of the vibration measurements as input (see Fig. \ref{fig_filters_example_inout}, left ) and present the output of these transfer functions (see Fig. \ref{fig_filters_example_inout}, right). The output in frequency domain (right bottom) proves that the filters work as expected since the output from the filters gathers in the corresponding frequency region. It is noted that the filter $F_{high}$ catches practically a lot of lower frequency contamination, as the lower frequencies own relatively higher intensity. The resulting problem can be solved by increasing the order of the filter.  
 
