@@ -497,7 +497,7 @@ When the machine is off, its vibration signature is of low relevance for PM. Thu
 
 % ===============================================================
 \subsection{Approach to Anomaly Detection}
-At the current data analysis stage, the data is already clustered, and a single cluster was selected for further analysis. Thus, the variability left in the data is expected not to result in multimodal distributions for a given variable. In order to implement the MVGD-based AD strategy discussed in Section \ref{sec_anomaly_detection}, it is required that the variables are Gaussian-distributed. In order to ensure that, we apply the quantile transform to the data. Fig. \ref{fig_transform_result} depicts the variables before and after the transformation.
+At the current data analysis stage, the data is already clustered, and a single cluster was selected for further analysis. Thus, the variability left in the data is expected not to result in multimodal distributions for a given variable. In order to implement the MVGD-based AD strategy discussed in Section \ref{sec_anomaly_detection}, it is required that the variables are Gaussian-distributed. In order to ensure that, we apply the quantile transform to the data. Fig. \ref{fig_transform_result} illustrates the normalized distribution obtained as the result of applying the quantile transform to the variable $RMS_{total}$. The same procedure was carried out for the other variables.
 
 % \begin{figure}
 % 	\centering
@@ -508,7 +508,7 @@ At the current data analysis stage, the data is already clustered, and a single 
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=\columnwidth]{graphics/quantile_transform_data/quantile_transform_data_ohne.pdf}}
-\caption{Variables before and after quantile transform}
+\caption{Distribution of $RMS_{total}$ before (left) and after (right) the quantile transform}
 \label{fig_transform_result}
 \end{figure}
 
