@@ -210,18 +210,18 @@ In order to extract this information from vibration signals, a set of techniques
 
 The Fourier Transform (FT) is a mathematical transform widely used to decompose a time function into multiple sinusoidal functions distributed over a frequency spectrum \cite{b4}. Since our interest - the machine's speed - is directly related to the frequency peak, we focus on seeking where the peak appears using Fourier Transform.
 
-In the discrete-time case, Discrete Fourier Transform is expressed as: 
+Due to the discrete-time nature of the sampled signals used in signal processing, there is a time difference $T_{s}$ (\textit{sampling time}) between any two consecutive samples. The inverse of the sampling time $f_{s}=1/T_{s}$ is termed \textit{sampling frequency}. As stated by the \textit{Nyquist-Shannon sampling theorem}, the highest-frequency component in the image of $G(\omega)$ will have frequency $f_{s}/2$ \cite{b5}. Thus, the sampling frequency $f_{s}$ of a signal defines the highest frequency component that the Fourier Transform of this signal can obtain.
+
+Finally, in the discrete-time case, the Discrete Fourier Transform (DFT) for a finite-length signal is expressed as: 
 
 \begin{equation}
 	\label{eq_fourier_disc}
-	X_{k} = \sum_{n = 0}^{N-1} x_{n}e^{-j \omega kn/N}
+	X_{k} = \sum_{n = 0}^{N-1} x_{n}e^{-j \omega_{s} kn/N}
 \end{equation}
 
+where $X_{k}$ is a complex number with amplitude and phase of the $k^{th}$ frequency component of the transform's output, $N$ is the number of samples in the signal, $j=\sqrt{-1}$, and $\omega_{s}$ represents the sampling frequency in $rad/s$.
 
-
-Due to the discrete-time nature of the sampled signals used in signal processing, there is a time difference $T_{s}$ (\textit{sampling time}) between any two consecutive samples. The inverse of the sampling time $f_{s}=1/T_{s}$ is termed \textit{sampling frequency}. As stated by the \textit{Nyquist-Shannon sampling theorem}, the highest-frequency component in the image of $G(\omega)$ will have frequency $f_{s}/2$ \cite{b5}. Thus, the sampling frequency $f_{s}$ of a signal defines the highest frequency component that the Fourier Transform of this signal can obtain.
-
-Analogously, the output signal is of discrete frequency. The time resolution of the input signal is equivalent to the sampling time $T_{s}$ and is thus determined solely by the sampling rate $f_{s}$. The frequency resolution $\Delta f$ of the output, however, also depends on the number of the samples $N$ in the input signal, as expressed in Equation \ref{eq_freq_resolution}:
+The signal $X_{k}$  which results from the DFT is of discrete frequency. The time resolution of the input signal is equivalent to the sampling time $T_{s}$ and is thus determined solely by the sampling rate $f_{s}$. The frequency resolution $\Delta f$ of the output, however, also depends on the number of the samples $N$ in the input signal, as expressed in Equation \ref{eq_freq_resolution}:
 
 \begin{equation}
 \label{eq_freq_resolution}
