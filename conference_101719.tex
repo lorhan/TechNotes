@@ -360,7 +360,9 @@ The wireless electronic sensors are embedded systems controlled by a microcontro
 
 A significant challenge related to the operation of the sensors is their energy autonomy. Since these sensors are designed to be placed in a compact case, the space available for their battery supply is quite limited. From this perspective, it is required to ensure that energy-intensive operations, such as radio communication, are used as little as possible.
 
-The gateway modules are embedded computers with a Linux operational system. They run an application written in Python, responsible for interacting with a SQLite database, communicating with the field sensors over radio, and providing a graphical user interface that can be accessed via TCP/IP based connection from a desktop computer connected to the same network. 
+The gateway modules are embedded computers with a Linux operational system. They run an application written in Python, responsible for interacting with a SQLite database, communicating with the field sensors over radio, and providing a graphical user interface that can be accessed via TCP/IP based connection from a desktop computer connected to the same network.
+
+In the current state of the setup, the vibration signals aquired by the sensors are transmitted via radio to the gateway devices, which then allows the user of the system to access and analyze the data through a desktop computer. With the improvements proposed in this work, however, the sensors should also perform signal processing tasks, so that they send over radio only the result of the processing instead of the complete signals, thus saving considerable battery energy.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=\columnwidth]{graphics/concept/concept_pre_new.pdf}}
