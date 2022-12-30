@@ -287,7 +287,7 @@ Where $m$ is the number of points in the dataset and $l$ is the Euclidean distan
 	l_{i}=\sqrt{(p_{ix} - p_{ix})^{2} + (p_{ix} - p_{ix})^{2}}
 \end{equation}
 
-A method for determining the centroids $c_{i}$ which minimize WCSS is given by Lloyd's algorithm \cite{b3}, which starts with initial guesses for each $c_{i}$ and then, iterativelly, assigns each $p_{i}$ to the neares $c_{i}$, then recalculate each $c_{i}$ as the average position of the $p_{i}$ assigned to it. The process can be terminated when the $c_{i}$'s positions stabilize. Then, the segregation of the data into groups is determined by which centroid each datapoint is associated.
+A method for determining the centroids $c_{i}$ which minimize WCSS is given by Lloyd's algorithm \cite{b3}, which starts with initial guesses for each $c_{i}$ and then, iterativelly, assigns each $p_{i}$ to the nearest $c_{i}$, then recalculate each $c_{i}$ as the average position of the $p_{i}$ assigned to it. The process can be terminated when the $c_{i}$'s positions stabilize. Then, the segregation of the data into groups is determined by which centroid each datapoint is associated.
 
 The choice for the K-Means technique stems from the method's simplicity and graphic intuition, which facilitates maintenance teams to analyse the results delivered by the system in order to better plan maintenance schedules. 
 
